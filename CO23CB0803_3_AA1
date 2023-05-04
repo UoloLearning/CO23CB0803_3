@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Let's Find Areas!</title>
+    </head>
+    <body>
+        <script>
+             const pi = 3.14;
+             var radius = 4; 
+             var area_of_circle = pi*radius**2; 
+             document.write("Area of Circle is ", area_of_circle," square units");
+
+             var length = 10;
+             var breadth = 20;
+             var area_of_rectangle = length*breadth;
+             document.write("<br>");
+             document.write("Area of Rectangle is ", area_of_rectangle," square units");
+
+             document.write("<br>");
+
+             var Total_area=2*area_of_circle+area_of_rectangle;
+             document.write("Total area of the given figure is ", Total_area, " square units");
+
+            </script>
+    </body>
+</html>
+
